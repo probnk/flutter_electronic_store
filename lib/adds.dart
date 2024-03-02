@@ -16,7 +16,7 @@ class Adds extends StatefulWidget {
 class _AddsState extends State<Adds> {
   bool favTrue = false;
   bool cartTrue = false;
-int items =0;
+  int items =0;
 
   @override
   Widget build(BuildContext context) {
@@ -245,7 +245,7 @@ int items =0;
               child: ElevatedButton(
                   style: ElevatedButton.styleFrom(
                       padding:EdgeInsets.symmetric(vertical: 20,horizontal: 35),
-                      primary:Colors.black45,
+                      backgroundColor:Colors.black45,
                       elevation: 5,
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(30)
